@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@auth0/nextjs-auth0':
         specifier: ^4.11.0
-        version: 4.29.0(next@16.3.5(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@24.13.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+        version: 4.30.0(next@16.3.5(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@24.13.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@emotion/cache':
         specifier: ^11.14.0
         version: 11.14.0
@@ -136,8 +136,8 @@ packages:
   '@astrojs/compiler@4.0.0':
     resolution: {integrity: sha512-eouss7G8ygdZqHuke033VMcVw5HTZUu+PXd/h06DGDUg/jt5btPYPqh66ENWw/mU78rBrf/oeC4oqoBwMtDMNA==}
 
-  '@auth0/nextjs-auth0@4.29.0':
-    resolution: {integrity: sha512-FFpQjEfiTWcKFMTQZbQyIeUzJ+A0xAwl57ecp6aN2U/g53dD+BtNVPDYGdJqjLlCHpsmxDe2mUG+//5ICnrLfA==}
+  '@auth0/nextjs-auth0@4.30.0':
+    resolution: {integrity: sha512-MUlrU0lCaevLKkTi6zbbfxTvL/HExL/zTiZfktBCCXScGAriWWfy6Y87Qf+SiSXk+1Eeg0QehU7q9QETQCLZXQ==}
     peerDependencies:
       next: ^14.2.35 || ~15.0.7 || ~15.1.11 || ~15.2.8 || ~15.3.8 || ~15.4.10 || ~15.5.9 || ^16.0.10
       react: ^18.0.0 || ~19.0.1 ||  ~19.1.2 || ^19.2.1
@@ -4200,8 +4200,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  use-sync-external-store@1.6.0:
-    resolution: {integrity: sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w==}
+  use-sync-external-store@1.7.0:
+    resolution: {integrity: sha512-6L+EeigHMQhdaIPNIFUKwfWJSwWFQ8gJbJ2DLOs5sDIegTwR9fRxvnM3uciHKjIZhFz+KAv2emhWMRvDmMcY8A==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -4396,7 +4396,7 @@ snapshots:
 
   '@astrojs/compiler@4.0.0': {}
 
-  '@auth0/nextjs-auth0@4.29.0(next@16.3.5(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@24.13.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
+  '@auth0/nextjs-auth0@4.30.0(next@16.3.5(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@24.13.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
       '@edge-runtime/cookies': 5.0.2
       '@panva/hkdf': 1.2.1
@@ -8321,7 +8321,7 @@ snapshots:
     dependencies:
       dequal: 2.0.3
       react: 19.3.0
-      use-sync-external-store: 1.6.0(react@19.3.0)
+      use-sync-external-store: 1.7.0(react@19.3.0)
 
   tagged-tag@1.0.0: {}
 
@@ -8501,7 +8501,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  use-sync-external-store@1.6.0(react@19.3.0):
+  use-sync-external-store@1.7.0(react@19.3.0):
     dependencies:
       react: 19.3.0
 
